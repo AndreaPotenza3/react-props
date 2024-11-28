@@ -1,5 +1,5 @@
 import Card from '../post/Card/card'
-import { posts } from '../../posts'
+import { posts } from '../../posts.jsx'
 
 function Main() {
 
@@ -11,7 +11,7 @@ function Main() {
 
                         {posts.map((post) => (
                             <div key={post.id} className="col-6">
-                                <Card title={post.title} tags={post.tags} content={post.content} />
+                                {post.published === true && <Card title={post.title} tags={post.tags} content={post.content} image={post.image} />}
                             </div>
                         ))}
                         {/* <div className="col-6">

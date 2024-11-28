@@ -1,13 +1,14 @@
 /**
  * Alcuni post dovranno rimanere senza immagine, quindi avere la proprietà image = undefined
  */
-import imageReact from './assets/react.svg'
+import imageItachi from './assets/Uitachi5.png'
+import imageMinato from './assets/minato.webp'
 
 export const posts = [
 	{
 		id: 1,
 		title: 'Titolo del Posto',
-		image: { imageReact } /* compila questo campo */,
+		image: imageItachi /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['html', 'css'],
@@ -25,7 +26,7 @@ export const posts = [
 	{
 		id: 3,
 		title: 'Titolo del Post',
-		image: undefined /* compila questo campo */,
+		image: imageMinato /* compila questo campo */,
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['js', 'php'],
