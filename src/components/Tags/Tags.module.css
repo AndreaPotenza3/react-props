@@ -1,0 +1,30 @@
+.tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.tags_item {
+    line-height: 1.5rem;
+    padding: 0 8px;
+    border-radius: 8px;
+
+}
+
+.tag_html {
+    background-color: orange;
+}
+
+.tag_css {
+    background-color: pink;
+}
+
+.tag_js {
+    background-color: yellow;
+}
+
+.tag_php {
+    background-color: cornflowerblue;
+}
